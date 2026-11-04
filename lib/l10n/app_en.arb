@@ -1,0 +1,437 @@
+{
+  "@@locale": "en",
+  "appTitle": "e-Radio",
+  "navExplore": "Discover",
+  "navSearch": "Search",
+  "navLibrary": "Library",
+  "navFavorite": "Favorites",
+  "profile": "Profile",
+  "searchHint": "Search radio, podcasts, songs...",
+  "liveStations": "Live Radio Stations",
+  "onAir": "On Air",
+  "onAirNow": "On Air Now",
+  "allStations": "All Stations",
+  "schedule": "Schedule",
+  "listenRadio": "Listen Radio",
+  "categories": "Categories",
+  "catPodcast": "Podcast",
+  "catNews": "News",
+  "catHealth": "Health",
+  "catEconomy": "Economy/Finance",
+  "catSong": "Song",
+  "newReleaseFrom": "New release from",
+  "notificationsImportant": "Important",
+  "notificationsMore": "More notifications",
+  "markAllAsRead": "Mark all as read",
+  "hideNotification": "Hide this notification",
+  "showFewerFrom": "Show fewer from {name}",
+  "@showFewerFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "turnOffAllFrom": "Turn off all from {name}",
+  "@turnOffAllFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "minutesAgo": "{count, plural, =1{1 minute ago} other{{count} minutes ago}}",
+  "@minutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hoursAgo": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@hoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "catAmbient": "Ambient Music",
+  "shuffle": "Shuffle",
+  "repeatOff": "Repeat off",
+  "repeatAll": "Repeat all",
+  "repeatOne": "Repeat this song",
+  "equalizer": "Equalizer",
+  "equalizerReset": "Reset",
+  "equalizerPlayFirst": "Play a song to adjust the equalizer.",
+  "equalizerFlat": "Flat",
+  "equalizerBassBoost": "Bass boost",
+  "equalizerTrebleBoost": "Treble boost",
+  "equalizerVocal": "Vocal",
+  "equalizerRock": "Rock",
+  "equalizerPop": "Pop",
+  "equalizerCustom": "Custom",
+  "streamUnavailable": "Stream unavailable",
+  "openInFacebook": "Open in Facebook",
+  "videoCantPlayHere": "This video can't be played in the app",
+  "nowPlaying": "Now Playing",
+  "nextProgram": "Next Program",
+  "todaysPrograms": "Today's Programs",
+  "replay": "Replay",
+  "tomorrow": "Tomorrow",
+  "noProgramsToday": "No programs scheduled today",
+  "scheduleLoadFailed": "Couldn't load today's programs",
+  "minimizePlayer": "Minimize player",
+  "recentlyPlayed": "Recently Played",
+  "noRecentlyPlayed": "Nothing played yet",
+  "favorites": "Favorites",
+  "noFavorites": "No favorites yet",
+  "addToFavorites": "Add to favorites",
+  "removeFromFavorites": "Remove from favorites",
+  "play": "Play",
+  "pause": "Pause",
+  "retry": "Retry",
+  "loading": "Loading",
+  "signIn": "Sign In",
+  "signUp": "Create Account",
+  "continueWithGoogle": "Continue with Google",
+  "comingSoon": "Coming soon",
+  "googleSignInFailed": "Couldn't sign in with Google. Please try again.",
+  "googleSignInCancelled": "Google sign-in didn't finish. Please try again.",
+  "googleSignInRefused": "Google sign-in didn't finish. Google said: {reason}",
+  "@googleSignInRefused": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "googleSignInClosedEarly": "Google sign-in closed straight away. Make sure a Google account is added to this device, then try again.",
+  "haveAccount": "Already have an account?",
+  "noAccount": "Don't have an account?",
+  "email": "Email",
+  "password": "Password",
+  "signOut": "Sign Out",
+  "language": "Language",
+  "english": "English",
+  "khmer": "Khmer",
+  "preferences": "Preferences",
+  "accountInfo": "Account Info",
+  "support": "Support",
+  "guest": "Guest",
+  "preloaderWelcome": "Welcome to",
+  "preloaderGreetingMorning": "Good morning, {name}",
+  "@preloaderGreetingMorning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "preloaderGreetingAfternoon": "Good afternoon, {name}",
+  "@preloaderGreetingAfternoon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "preloaderGreetingEvening": "Good evening, {name}",
+  "@preloaderGreetingEvening": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "guestSubtitle": "Sign in to save favorites and sync your profile",
+  "station": "Station",
+  "frequency": "Frequency",
+  "volume": "Volume",
+  "emptySearch": "No stations match your search",
+  "welcomeBack": "Welcome back",
+  "createYourAccount": "Create your account",
+  "joinDate": "Joined",
+  "location": "Location",
+  "invalidCredentials": "Invalid email or password",
+  "accountExists": "An account already exists on this device. Please sign in instead.",
+  "live": "Live",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "noStationsPublished": "No stations published yet",
+  "noContentYet": "No content in this category yet",
+  "seeAll": "See All",
+  "address": "Address",
+  "phoneNumber": "Phone number",
+  "save": "Save",
+  "accountInfoSaved": "Account info updated",
+  "changePassword": "Change Password",
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "passwordChanged": "Password changed",
+  "notifications": "Notifications",
+  "notificationsSubtitle": "New items, updates, and profile reminders",
+  "cancel": "Cancel",
+  "jumpBackIn": "Jump Back In",
+  "trendingProgram": "Trending Programs",
+  "newRelease": "New Releases",
+  "share": "Share",
+  "settings": "Settings",
+  "stop": "Stop",
+  "comments": "Comments",
+  "writeAComment": "Write a comment…",
+  "post": "Post",
+  "noCommentsYet": "No comments yet. Be the first!",
+  "signInToComment": "Sign in to join the conversation",
+  "deleteComment": "Delete comment",
+  "bookmark": "Bookmark",
+  "addBookmark": "Add to bookmarks",
+  "removeBookmark": "Remove from bookmarks",
+  "remindMe": "Remind me",
+  "reminderSetFor": "Reminder set for {time}",
+  "@reminderSetFor": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "cancelReminder": "Cancel reminder",
+  "reminderCreated": "Reminder set",
+  "reminderCancelled": "Reminder cancelled",
+  "notificationsPermissionNeeded": "Allow notifications in system settings to get reminders",
+  "chooseReminderTime": "Choose a reminder time",
+  "onboardingSkip": "Skip",
+  "onboardingDiscoverHeadline": "Discover Live Radio",
+  "onboardingDiscoverSubtitle": "Listen to thousands of live stations anytime, anywhere.",
+  "onboardingPickFavoritesHeadline": "Pick Your Favorites",
+  "onboardingPickFavoritesSubtitle": "Choose your favorite genres and stations to get a personalized experience.",
+  "continueLabel": "Continue",
+  "onboardingOneTapHeadline": "One Tap to Play",
+  "onboardingOneTapSubtitle": "Find, Save, and jump back into your favorite stations instantly.",
+  "letsGo": "Let's Go!",
+  "interestNewsTalk": "News & Talk",
+  "interestEducation": "Education",
+  "interestSports": "Sports",
+  "interestMusic": "Music",
+  "interestEconomy": "Economy",
+  "interestInfotainment": "Infotainment",
+  "interestLifestyle": "Lifestyle",
+  "interestRadio": "Radio",
+  "interestAmsPrograms": "AMS Programs",
+  "interestCulture": "Culture",
+  "interestRelaxation": "Relaxation",
+  "interestAmbient": "Ambient",
+  "interestTrends": "Trends",
+  "interestBusiness": "Business",
+  "authSubtitle": "Enter your credentials to continue",
+  "createAccount": "Create account",
+  "emailAddress": "Email address",
+  "confirmPassword": "Confirm password",
+  "firstNameHint": "Enter your first name",
+  "lastNameHint": "Enter your last name",
+  "login": "Login",
+  "forgotPassword": "Forgot password?",
+  "haveAnAccount": "Have an account?",
+  "signInLink": "Sign in",
+  "signUpLink": "Sign up",
+  "termsPrefix": "By continuing, you agree to our ",
+  "termsLink": "Terms",
+  "termsAnd": " and ",
+  "privacyLink": "Privacy Policy",
+  "termsSuffix": ".",
+  "fieldRequired": "This field is required",
+  "emailInvalid": "Enter a valid email address",
+  "passwordTooShort": "Use at least 8 characters",
+  "passwordsDontMatch": "Passwords don't match",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "welcome": "Welcome",
+  "orDivider": "OR",
+  "account": "Account",
+  "yourProfile": "Your profile",
+  "percentComplete": "{percent}% complete",
+  "@percentComplete": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "complete": "Complete",
+  "incomplete": "Incomplete",
+  "darkMode": "Dark Mode",
+  "helpAndFeedback": "Help & feedback",
+  "editProfile": "Edit Profile",
+  "changeProfilePhoto": "Change Profile Photo",
+  "photoUpdated": "Profile photo updated",
+  "photoUploadFailed": "Couldn't upload the photo. Please try again.",
+  "confirmNewPassword": "Confirm New Password",
+  "requirementsChecklist": "Requirements Checklist",
+  "reqLength": "At least 8 characters long",
+  "reqNumberOrSymbol": "Contains at least one number or symbol",
+  "reqUpperLower": "Contains upper and lowercase letters",
+  "updatePassword": "Update Password",
+  "forgotCurrentPassword": "Forgot current password?",
+  "passwordRequirementsNotMet": "Your new password doesn't meet all the requirements",
+  "allowNotifications": "Allow notifications",
+  "notificationsHint": "Turn on to get the latest updates",
+  "forgotPasswordTitle": "Forgot Password",
+  "forgotPasswordHeading": "Forgot Password?",
+  "forgotPasswordSubtitle": "Enter your email address and we will send you a code to reset your password.",
+  "emailHintLong": "Enter your email address...",
+  "sendResetCode": "Send reset code",
+  "backTo": "Back to",
+  "enterCode": "Enter code",
+  "codeSentTo": "A 6-digit code was sent to",
+  "codeExpiresIn": "Code expires in {time}",
+  "@codeExpiresIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "codeExpired": "Code expired",
+  "didntGetCode": "Didn't get a code?",
+  "resend": "Resend",
+  "invalidCode": "That code is incorrect or has expired",
+  "codeResent": "A new code is on its way",
+  "pleaseWaitAndRetry": "Too many attempts. Please wait a moment and try again.",
+  "couldntReachServer": "Couldn't reach the server. Check your connection and try again.",
+  "resetPassword": "Reset Password",
+  "createNewPassword": "Create New Password",
+  "createNewPasswordSubtitle": "Create a new password for your account",
+  "ruleLength": "At least 8 characters",
+  "ruleUppercase": "At least one uppercase letter",
+  "ruleNumber": "At least one number",
+  "ruleSpecial": "At least one special character",
+  "passwordResetDone": "Your password was reset. Sign in with your new password.",
+  "resetExpired": "This reset has expired. Please start again.",
+  "moreOptions": "More options",
+  "podcasts": "Podcasts",
+  "filterAll": "All",
+  "allEpisodes": "All Episodes",
+  "playLatest": "Play Latest",
+  "follow": "Follow",
+  "byHost": "by {name}",
+  "@byHost": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noPodcastsYet": "No podcasts yet",
+  "episodeCountBadge": "{count} EP",
+  "@episodeCountBadge": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noEpisodesYet": "No episodes yet",
+  "episodeDetails": "Details",
+  "episodesButton": "Episodes",
+  "episodeSection": "Episode",
+  "seeMore": "see more",
+  "episodeMinutes": "{count, plural, =1{1 min} other{{count} mins}}",
+  "@episodeMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "viewCount": "{count, plural, =1{1 view} other{{count} views}}",
+  "@viewCount": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "episodeToday": "Today",
+  "episodeDaysAgo": "{count, plural, =1{1 day ago} other{{count} days ago}}",
+  "@episodeDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "music": "Music",
+  "tabLocal": "Local",
+  "tabInternational": "International",
+  "popularArtists": "Popular Artists",
+  "genres": "Genres",
+  "popularSongs": "Popular Songs",
+  "byArtist": "by {name}",
+  "@byArtist": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "noSongsYet": "No songs yet",
+  "tabRadio": "Radio",
+  "removedFromFavorites": "Removed from Favorites",
+  "exploreContent": "Explore Content",
+  "emptyFavoritesMessage": "Save your favorite stations, songs, podcasts and stories to find them here.",
+  "noNotificationsTitle": "No notifications yet",
+  "noNotificationsMessage": "Stay tuned! Your alerts and updates will appear here.",
+  "enableNotifications": "Enable Notifications",
+  "notificationsEnabled": "Notifications are on",
+  "noResultsTitle": "No results found",
+  "noResultsMessage": "Try another keyword or explore popular categories below.",
+  "connectionLostTitle": "Connection Lost",
+  "connectionLostMessage": "Please check your internet connection and try again to access e-Radio live stream.",
+  "tryAgain": "Try Again",
+  "goOffline": "Go Offline",
+  "noInternetTitle": "No Internet Connection",
+  "noInternetMessage": "Please connect to Wi-Fi or mobile data to continue listening.",
+  "newReleasesChannel": "New releases",
+  "newReleasesCount": "{count} new releases",
+  "@newReleasesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "backOnline": "Back online",
+  "unavailableTitle": "Unavailable",
+  "contentUnavailableTitle": "Content Unavailable",
+  "contentUnavailableMessage": "This content may have been removed or is temporarily unavailable in your region.",
+  "goBack": "Go Back",
+  "reportIssue": "Report Issue",
+  "signInTitle": "Sign in",
+  "signInSheetSubtitle": "Log in to save your favorites",
+  "playlist": "Playlist",
+  "recentSearches": "Recent Searches",
+  "clearAll": "Clear All",
+  "browseCategories": "Browse Categories",
+  "trendingSearches": "Trending Searches",
+  "searchSongs": "Songs",
+  "searchRadioStations": "Radio Stations",
+  "searchSongsAndEpisodes": "Songs & Episodes",
+  "removeSearchTerm": "Remove {term}",
+  "@removeSearchTerm": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  },
+  "useSuggestion": "Search for {term}",
+  "@useSuggestion": {
+    "placeholders": {
+      "term": {
+        "type": "String"
+      }
+    }
+  }
+}

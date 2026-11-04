@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- As the manifest's usesCleartextTraffic had it, which Android ignores once
+         there is a config: several stations stream over plain http. -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- live.ams.com.kh (Apsara FM97 and FM99) does not send the Let's Encrypt
+         intermediate its certificate was issued by. Browsers fetch a missing one;
+         Android does not, and stops with "Trust anchor for certification path not
+         found". These are Let's Encrypt's three RSA intermediates (YR1 to YR3,
+         from https://letsencrypt.org/certs/gen-y/, valid until 2028-09), any of
+         which a renewal of the certificate may use. With them here the
+         certificate is still checked in full, its hostname included.
+         Remove this once the server sends its full chain (fullchain.pem). -->
+    <domain-config>
+        <domain includeSubdomains="false">live.ams.com.kh</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/le_yr1" />
+            <certificates src="@raw/le_yr2" />
+            <certificates src="@raw/le_yr3" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
