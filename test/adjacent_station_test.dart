@@ -7,8 +7,7 @@ import 'package:e_radio/data/models/station.dart';
 Station _station(String id) =>
     Station(id: id, name: 'Station $id', streamUrl: 'https://x/$id.mp3');
 
-NowPlayingItem _playing(String id) =>
-    NowPlayingItem.fromStation(_station(id));
+NowPlayingItem _playing(String id) => NowPlayingItem.fromStation(_station(id));
 
 void main() {
   final stations = [_station('1'), _station('2'), _station('3')];

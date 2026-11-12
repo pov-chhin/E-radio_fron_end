@@ -71,7 +71,8 @@ class ProgramSlot {
 
     final thumbnail = acf is Map ? acf['thumbnail'] : null;
     final sizes = thumbnail is Map ? thumbnail['sizes'] : null;
-    final image = (sizes is Map ? sizes['medium'] : null) ??
+    final image =
+        (sizes is Map ? sizes['medium'] : null) ??
         (thumbnail is Map ? thumbnail['url'] : null);
     final name = plainTextFromHtml('${program['name'] ?? ''}').trim();
 

@@ -155,7 +155,10 @@ void main() {
     });
 
     test('leaves other streams alone, whatever they are called', () {
-      expect(ApsaraStation.fromItem(station('https://x.com/live.m3u8')), isNull);
+      expect(
+        ApsaraStation.fromItem(station('https://x.com/live.m3u8')),
+        isNull,
+      );
       expect(
         ApsaraStation.fromItem(
           station('http://studio.devams.site/hls/fm97/live.m3u8'),
@@ -448,10 +451,7 @@ void main() {
     });
 
     testWidgets('offers Retry when the schedule cannot load', (tester) async {
-      await _pump(
-        tester,
-        schedule: () async => throw ApiException('offline'),
-      );
+      await _pump(tester, schedule: () async => throw ApiException('offline'));
 
       expect(find.text("Couldn't load today's programs"), findsOneWidget);
       expect(find.text('Retry'), findsOneWidget);
@@ -480,7 +480,9 @@ void main() {
       await _pump(tester);
 
       final bar = tester.getRect(find.byType(AppBar));
-      final heart = tester.getCenter(find.byIcon(Icons.favorite_border_rounded));
+      final heart = tester.getCenter(
+        find.byIcon(Icons.favorite_border_rounded),
+      );
       final pause = tester.getCenter(find.byIcon(Icons.pause_rounded));
       // The heart and share are on the picture's foot, under the bar and above
       // the controls.
@@ -563,7 +565,11 @@ void main() {
         await _pump(tester, item: withPicture);
         final frame = tester.getSize(find.byType(FullArtwork));
         expect(frame.width, 390);
-        expect(frame.height, 390 / 0.75, reason: 'the 3:4 of the other players');
+        expect(
+          frame.height,
+          390 / 0.75,
+          reason: 'the 3:4 of the other players',
+        );
         // The seek bar and the controls are right under it, on the screen; the
         // programs are further down, to scroll to.
         final pause = tester.getCenter(find.byIcon(Icons.pause_rounded));

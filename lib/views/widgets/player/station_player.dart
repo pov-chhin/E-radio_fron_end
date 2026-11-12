@@ -179,7 +179,12 @@ class _StationPlayerState extends ConsumerState<StationPlayer> {
           item: widget.item,
           palette: palette,
         ),
-        _NowAndNext(day: day, station: station, accent: accent, palette: palette),
+        _NowAndNext(
+          day: day,
+          station: station,
+          accent: accent,
+          palette: palette,
+        ),
       ],
     );
     final programs = _Programs(
@@ -193,7 +198,8 @@ class _StationPlayerState extends ConsumerState<StationPlayer> {
 
     final l10n = AppLocalizations.of(context)!;
     // The seek bar and the controls grow with the text.
-    final controls = _controlsHeight * MediaQuery.textScalerOf(context).scale(1);
+    final controls =
+        _controlsHeight * MediaQuery.textScalerOf(context).scale(1);
     return AnnotatedRegion<SystemUiOverlayStyle>(
       // The status bar sits over the top bar, which is the page's colour.
       value: palette.dark
@@ -493,9 +499,7 @@ class _FavoriteAction extends ConsumerWidget {
     final isFavorite = ref.watch(favoritesProvider).contains(item.id);
     return _HeaderIconButton(
       tooltip: isFavorite ? l10n.removeFromFavorites : l10n.addToFavorites,
-      icon: isFavorite
-          ? Icons.favorite_rounded
-          : Icons.favorite_border_rounded,
+      icon: isFavorite ? Icons.favorite_rounded : Icons.favorite_border_rounded,
       color: isFavorite ? liveColor : Colors.white,
       onPressed: () => requireSignIn(
         context,
@@ -670,7 +674,11 @@ class _EqualizerPainter extends CustomPainter {
     final random = math.Random(11);
     return List.generate(
       16,
-      (_) => (x: random.nextDouble(), y: random.nextDouble(), z: .3 + random.nextDouble() * .7),
+      (_) => (
+        x: random.nextDouble(),
+        y: random.nextDouble(),
+        z: .3 + random.nextDouble() * .7,
+      ),
     );
   }();
 
@@ -1176,8 +1184,10 @@ class _Programs extends StatelessWidget {
 
   /// A word, or a spinner, in the room the list would have: while the programs
   /// load, if there are none, or if they could not be loaded.
-  Widget _message(Widget child) =>
-      SizedBox(height: _messageHeight, child: Center(child: child));
+  Widget _message(Widget child) => SizedBox(
+    height: _messageHeight,
+    child: Center(child: child),
+  );
 }
 
 class _ProgramRow extends StatelessWidget {
